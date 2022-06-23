@@ -1,0 +1,99 @@
+body{
+    font-family: 'PT Serif', serif;
+ 
+    
+
+  }
+  .header{
+    background-image: url(./images/fon.jpg);
+  }
+ 
+  
+  .header__content{
+    padding: 20px 0px 23px;
+    
+    
+
+  }
+ 
+  .header__content-inner{
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu li{
+    display: inline-block;
+  }
+  .menu a{
+    color: red;
+    font-size: 16px;
+    line-height: 36px;
+    border: 1px solid transparent;
+    padding: 0px 16px;
+    transition: all .3s;
+  }
+  .menu a:hover{
+    border-color: #ffc222;
+  }
+  .menu li + li{
+    padding-left: 30px;
+  }
+    
+  
+  .header__logo img{
+    width: 200px;
+    height: 50px;
+    
+    
+  }
+   .carousel-inner img {
+    width: 10%;
+    height: 200px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    
+  } 
+  #coming{
+    background-color: black;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+  }
+   .fa-facebook{
+    color: #3b5998;
+  }
+  .fa-instagram{
+    color: #517fa4;
+  }
+  .fa-youtube{
+    color: #b00
+  }
+  .fa-twitter{
+    color: #00aced;
+  }
+  
+  .fa-facebook:hover ,.fa-instagram:hover,.fa-youtube:hover,.fa-twitter:hover{
+    color: #ccc;
+  } 
+ #top{
+  color: black;
+ }
+ #totop {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  padding: 0px 0 15px 7px;
+  width: 50px;
+  height: 50px;
+  background-color: #185899;
+  border-radius: 55%;
+  font-size: 40px;
+  color: #fff;
+  z-index: 9999;
+  opacity: 0;
+}
+ 
+ 
+
+
+
